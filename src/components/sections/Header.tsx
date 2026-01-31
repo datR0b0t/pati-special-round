@@ -29,7 +29,7 @@ export function Header() {
     useEffect(() => {
         const handleScroll = () => {
             // Show sticky bar after scrolling past ~100px (header height)
-            setShowStickyBar(window.scrollY > 100);
+            setShowStickyBar(window.scrollY > 500);
         };
 
         window.addEventListener("scroll", handleScroll);
