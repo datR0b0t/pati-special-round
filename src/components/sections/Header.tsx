@@ -48,7 +48,7 @@ export function Header() {
                         transition={{ duration: 0.3, ease: "easeOut" }}
                         className="fixed top-0 left-0 right-0 z-[60] bg-im8-dark-red"
                     >
-                        <Container className="flex items-center justify-between py-8">
+                        <Container className="flex items-center justify-between py-4">
                             {/* Logo */}
                             <Link href="/" className="hidden md:flex md:flex-shrink-0">
                                 <Image src={logoWhite} alt="Logo" width={100} height={100} />
