@@ -168,7 +168,9 @@ export function ComparisonTable() {
                                 >
                                     {/* IM8 Column */}
                                     <div className="py-3 px-4 flex items-center gap-3 bg-red-50/30 border-r border-gray-200">
-                                        <CheckIcon />
+                                        <div className="w-5 h-5">
+                                            <CheckIcon/>
+                                        </div>
                                         <div>
                                             <span className="text-sm md:text-base text-gray-900">
                                                 {row.feature}
@@ -185,14 +187,18 @@ export function ComparisonTable() {
                                     <div className="py-3 px-4 flex items-center gap-3 bg-[#C5CFC9]/30">
                                         {row.competitor.status === "check" ? (
                                             <>
-                                                <CheckIcon />
+                                                <div className="w-5 h-5">
+                                                    <CheckIcon/>
+                                                </div>
                                                 <span className="text-sm md:text-base text-gray-700">
                                                     {row.competitor.text || row.feature}
                                                 </span>
                                             </>
                                         ) : (
                                             <>
-                                                <XIcon />
+                                                <div className="w-5 h-5">
+                                                    <XIcon/>
+                                                </div>
                                                 <span className="text-sm md:text-base text-gray-600">
                                                     {row.competitor.text || "Not included"}
                                                 </span>

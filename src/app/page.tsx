@@ -3,6 +3,7 @@ import { BodyDecades } from "@/components/sections/BodyDecades";
 import { ClinicallyProven } from "@/components/sections/ClinicallyProven";
 import { ComparisonTable } from "@/components/sections/ComparisonTable";
 import { DailyEssentials } from "@/components/sections/DailyEssentials";
+import { DailyLongevity } from "@/components/sections/DailyLongevity";
 import { ExpertTestimonials } from "@/components/sections/ExpertTestimonials";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { Footer } from "@/components/sections/Footer";
@@ -30,7 +31,7 @@ export default function Home() {
       <ClinicallyProven />
       <SavingsComparison />
       <ComparisonTable />
-      <DailyEssentials />
+      <DailyLongevity />
       <ExpertTestimonials />
       <IncredibleValue />
       <ProductShowcase />

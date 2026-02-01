@@ -362,7 +362,7 @@ export function OrganSystems() {
                             />
                             <button
                                 onClick={() => handleTabChange("essentials")}
-                                className={`relative z-10 px-6 py-2.5 rounded-full text-sm font-medium whitespace-nowrap transition-colors duration-300 w-1/2
+                                className={`relative z-10 px-6 py-2.5 rounded-full text-sm font-medium transition-colors duration-300 w-1/2
                                 ${activeTab === "essentials"
                                         ? "text-white"
                                         : "text-gray-600 hover:text-im8-dark-red"
