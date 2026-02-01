@@ -1,11 +1,15 @@
 import { BodyDecades } from "@/components/sections/BodyDecades";
+import { ClinicallyProven } from "@/components/sections/ClinicallyProven";
 import { ComparisonTable } from "@/components/sections/ComparisonTable";
-import { ExpertProfile } from "@/components/sections/ExpertProfile";
-import { FAQ } from "@/components/sections/FAQ";
+import { DailyEssentials } from "@/components/sections/DailyEssentials";
+import { ExpertTestimonials } from "@/components/sections/ExpertTestimonials";
 import { Header } from "@/components/sections/Header";
 import { Hero } from "@/components/sections/Hero";
-import { IngredientGrid } from "@/components/sections/IngredientGrid";
-import { StatsSection } from "@/components/sections/StatsSection";
+import { IncredibleValue } from "@/components/sections/IncredibleValue";
+import { LongevityScience } from "@/components/sections/LongevityScience";
+import { OrganSystems } from "@/components/sections/OrganSystems";
+import { ProductShowcase } from "@/components/sections/ProductShowcase";
+import { SavingsComparison } from "@/components/sections/SavingsComparison";
 import { StickyFooter } from "@/components/sections/StickyFooter";
 
 export default function Home() {
@@ -14,11 +18,18 @@ export default function Home() {
       <Header />
       <Hero />
       <BodyDecades />
-      <StatsSection />
-      <IngredientGrid />
+      <LongevityScience />
+      <OrganSystems />
+      <DailyEssentials />
+      <ClinicallyProven />
+      <SavingsComparison />
       <ComparisonTable />
-      <ExpertProfile />
-      <FAQ />
+      <DailyEssentials />
+      <ExpertTestimonials />
+      <IncredibleValue />
+      <ProductShowcase />
+
+    
       <StickyFooter />
     </main>
   );
